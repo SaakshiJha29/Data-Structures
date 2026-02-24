@@ -29,9 +29,7 @@ int main() {
     string s;
     cout << "Enter binary string: ";
     cin >> s;
-
-    cout << "Count of binary substrings: "
+    cout << "binary substrings: "
          << obj.countBinarySubstrings(s) << endl;
-
     return 0;
 }
